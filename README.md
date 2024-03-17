@@ -1,7 +1,7 @@
 # scratch-minecraft
 
 - for Minecraft Java Edition 1.16.5
-- Forge+RemoteControlMod
+- Forge +「Remote Control from Scratch」
 
 ## prerequire for build
 

@@ -1,0 +1,9 @@
+{
+  "$schema": "https://wails.io/schemas/config.v2.json",
+  "name": "scratch-minecraft",
+  "outputfilename": "scratch-minecraft",
+  "author": {
+    "name": "NoboNobo",
+    "email": "irieda@gmail.com"
+  }
+}

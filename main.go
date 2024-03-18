@@ -4,6 +4,7 @@ import (
 	"embed"
 	"io/fs"
 	"log"
+	"os"
 
 	"github.com/wailsapp/wails/v2"
 	"github.com/wailsapp/wails/v2/pkg/options"
@@ -14,6 +15,7 @@ import (
 var assets embed.FS
 
 func main() {
+	os.Setenv("WEBVIEW2_ADDITIONAL_BROWSER_ARGUMENTS", "--disable-web-security")
 	sub, err := fs.Sub(assets, "frontend/1-16-5")
 	if err != nil {
 		log.Fatal(err)

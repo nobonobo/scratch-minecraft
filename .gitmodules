@@ -2,3 +2,6 @@
 	path = frontend
 	url = https://github.com/takecx/scratch-gui
 	branch = gh-pages
+[submodule "RemoteControllerMod"]
+	path = RemoteControllerMod
+	url = https://github.com/takecx/RemoteControllerMod.git
